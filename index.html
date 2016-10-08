@@ -1,20 +1,60 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.5.0/socket.io.js"></script>
-    <script>
-        var socket = io('http://localhost:9999');
-        socket.on('news', function(data) {
-            console.log(data);
-            socket.emit('my other event', {
-                my: 'data'
-            });
-        });
-    </script>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./dist/lib/socket.io.js"></script>
+        <script src="./dist/lib/jquery.min.js"></script>
+        <link rel="stylesheet" href="./dist/lib/bootstrap.min.css">
+        <link rel="stylesheet" href="./dist/style.css">
+        <title>❤</title>
+    </head>
 
-</head>
+    <body>
+        <div class="container wrap">
+            <div class="block dyc">
+                <h2 class="place">
+                    大悦城
+                </h2>
+                <p class="state">
+                    无货
+                </p>
+                <a class="buy-btn btn btn-default" href="https://reserve-cn.apple.com/CN/zh_CN/reserve/iPhone?partNumber=MNFU2CH/A&channel=1&rv=&path=&sourceID=&iPP=false&appleCare=&iUID=&iuToken=&carrier=&store=R637">
+                    购买
+                </a>
+            </div>
+            <div class="block hl">
+                <h2 class="place">
+                    恒隆广场
+                </h2>
+                <p class="state">
+                    无货
+                </p>
+                <a class="buy-btn btn btn-default" href="https://reserve-cn.apple.com/CN/zh_CN/reserve/iPhone?partNumber=MNFU2CH/A&channel=1&rv=&path=&sourceID=&iPP=false&appleCare=&iUID=&iuToken=&carrier=&store=R579">
+                    购买
+                </a>
+            </div>
+            <div class="block yh">
+                <h2 class="place">
+                    银河国际购物中心
+                </h2>
+                <p class="state">
+                    无货
+                </p>
+                <a class="buy-btn btn btn-default" href="https://reserve-cn.apple.com/CN/zh_CN/reserve/iPhone?partNumber=MNFU2CH/A&channel=1&rv=&path=&sourceID=&iPP=false&appleCare=&iUID=&iuToken=&carrier=&store=R638">
+                    购买
+                </a>
+            </div>
 
-<body>
-    aa
-</body>
+            <p>
+              同步时间
+            </p>
+            <p class="time">
+            </p>
+            <p class="heart">
+             made with ❤
+            </p>
+        </div>
+        <script src="./dist/dist.js" charset="utf-8"></script>
+    </body>
 
 </html>

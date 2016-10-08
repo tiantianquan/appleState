@@ -1,0 +1,36 @@
+*{
+  font-family:PingFang,sans-serif,"微软雅黑";
+}
+
+
+p.state{
+  font-size: 20px;
+  color:grey;
+}
+
+h2.place{
+  font-size: 22px;
+}
+
+.wrap{
+  text-align:center;
+}
+
+.block{
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #e8e8e8;
+border-radius: 10px;
+}
+
+.buy-btn{
+  margin-top: 20px;
+}
+
+.heart{
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  background-color: #fff;
+}
